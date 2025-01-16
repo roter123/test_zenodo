@@ -16,5 +16,5 @@ def generate_file(file_path, file_size_bytes):
 
 if __name__ == '__main__':
     # # 生成一个大小为10MB的PDF文件\
-    # for i in range(256):
-    generate_file('E:\\file_size.txt', 1024 * 1024 * 50)
+    for i in range(256):
+        generate_file(f'.\\files\\{i}.txt', 1024 * 1024 * 50)
